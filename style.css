@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+background-color:darkorange;
+}
+
+.profile {
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: floralwhite;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.75;
+    background: linear-gradient(#25be9b 0%, #6025be 100%);
+    display: table ;
+    width:100%;
+    height: 100%;
+    z-index: 9; 
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#cricket {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.line {
+    height: 6px;
+    background-color: aquamarine;
+    width:70px;
+    margin: 8px auto;
+    text-align: center;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    line-height: 1.3;
+    font-size: 17px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+        position: absolute;
+       top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: cornflowerblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: chocolate;
+    
+}
+    
+}
+a{
+    text-decoration: none;
+}
+.ariticle:hover{
+   color: fuchsia; 
+}
+html{
+     scroll-behavior: smooth;
+}
+
+mg{
+    transition: transform .2s;
+}
+img:hover{
+   transform: scale(0.9);
+    border: 4px solid black;
+}
+#cricket{
+    background-image: linear-gradient(navyblue,#3232a8blue);
+}
+#contact {
+    background-color: dodgerblue
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact_1h3 {
+    display: inline;
+}
+
+.contact_1a {
+    color: cornsilk;
+    text-shadow: none;
+}
